@@ -1,0 +1,29 @@
+.Subsecribe {
+  margin-top: 400px;
+height: 220px;
+}
+
+.Subsecribe h1 {
+  text-transform: capitalize;
+  font-size: 39px;
+}
+
+.Subsecribe input[type="text"] {
+  width: 80%;
+  margin-top: 40px;
+  padding: 10px;
+  margin-left: 40px;
+}
+.Subsecribe button {
+  background-color: rgb(206, 110, 32);
+  border: none;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.Subsecribe button:hover {
+  background-color: rgb(156, 84, 25);
+  transition: all 0.7s;
+}

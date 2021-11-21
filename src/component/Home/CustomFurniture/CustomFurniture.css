@@ -1,0 +1,45 @@
+.CustomFurniture {
+  background-color: rgb(54, 49, 49);
+  padding-top: 60px;
+  height: 300px;
+  color: #eee;
+}
+
+.CustomFurniture .container .row h1 {
+  padding-left: 40px;
+  text-transform: capitalize;
+}
+
+.CustomFurniture .container .row p {
+  margin-left: 400px;
+  width: 500px;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+.CustomFurniture .container .row .card {
+  margin: auto;
+  margin-left: 10px;
+  background-color: rgb(167, 135, 109);
+  text-align: center;
+  padding: 10px;
+  margin-top: 60px;
+  height: 240px;
+  border: none;
+  /* box-shadow: 1px 1px 17px rgba(104, 49, 4, 0.719); */
+  /* border-top: 1px solid #eee; */
+}
+.CustomFurniture .container .row .card h3 {
+  background-color: #eee;
+  border-radius: 50%;
+  padding: 10px;
+  color: rgb(51, 38, 38);
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.CustomFurniture .container .row .card h6 {
+  padding-bottom: 70px;
+}

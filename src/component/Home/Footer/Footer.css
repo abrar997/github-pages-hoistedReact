@@ -1,0 +1,46 @@
+footer {
+  margin-top: 100px;
+  background-color: rgb(54, 49, 49);
+}
+
+/* copyright */
+footer p {
+  text-align: center;
+  color: rgb(206, 110, 32);
+  background-color: #eee;
+  font-size: 23px;
+  font-weight: 600;
+}
+/* icons social */
+footer .social {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+footer .social a {
+  margin: auto;
+  font-size: 23px;
+  color: white;
+  margin-left: 10px;
+  text-align: center;
+  background-color: rgb(206, 110, 32);
+  border-radius: 50%;
+  padding: 10px;
+}
+/* icons */
+footer .social a:first-child:hover {
+  background-color: rgb(233, 175, 128);
+  color: black;
+}
+footer .social a:nth-child(2):hover {
+  background-color: rgb(243, 215, 192);
+  color: black;
+}
+footer .social a:nth-child(3):hover {
+  background-color: rgb(253, 241, 230);
+  color: black;
+}
+footer .social a:nth-child(4):hover {
+  background-color: rgb(255, 245, 238);
+  color: black;
+}

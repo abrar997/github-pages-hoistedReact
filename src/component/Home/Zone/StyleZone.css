@@ -1,0 +1,47 @@
+/* first section  */
+.zone-section {
+  margin-top: 100px;
+}
+/* text -left */
+.zone-section .container .row .text-zone {
+  margin-top: 190px;
+}
+.zone-section .container .row .text-zone h1 {
+  text-transform: uppercase;
+}
+
+.zone-section .container .row .text-zone p {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: gray;
+}
+/* button */
+.zone-section .container .row .text-zone button {
+  background-color: rgb(206, 110, 32);
+  color: white;
+  border: none;
+  width: 140px;
+  padding: 10px;
+  font-size: 23px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.zone-section .container .row .text-zone button:hover {
+  background-color: rgb(156, 84, 25);
+  transition: all 0.7s;
+}
+/* images-right larger img */
+.zone-section .container .row .image-zone .img1 {
+  z-index: 0;
+  position: relative;
+}
+/* smaller img */
+.zone-section .container .row .image-zone .img2 {
+  margin-top: -100px;
+  z-index: 2;
+  position: absolute;
+  right: 650px;
+  bottom: 20px;
+}

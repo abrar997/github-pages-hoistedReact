@@ -1,0 +1,23 @@
+.About-section {
+  margin-top: 100px;
+}
+.About-section h1 {
+  background-color: rgb(206, 110, 32);
+  color: #eee;
+  padding: 10px;
+  font-size: 36px;
+  padding-left: 200px;
+word-spacing: 10px;}
+
+.About-section .container .row h2 {
+  margin-top: 100px;
+  font-size: 42px;
+word-spacing: 10px;}
+
+.About-section .container .row p {
+  margin-top: 30px;
+  font-size: 23px;
+}
+.About-section .container .row img {
+  margin-left: 100px;
+margin-top: 40px;}

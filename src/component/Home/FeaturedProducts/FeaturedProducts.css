@@ -1,0 +1,82 @@
+/* feature proucts */
+.FeaturedProducts {
+  margin-top: 250px;
+  text-align: center;
+  background-color: rgb(239, 244, 253);
+}
+/* h1,p in top of this secion */
+.FeaturedProducts .container .row h1 {
+  color: rgba(0, 0, 0, 0.815);
+  padding-top: 50px;
+}
+.FeaturedProducts .container .row p {
+  font-size: 27px;
+}
+/* products items */
+.FeaturedProducts .container .row .card {
+  background-color: transparent;
+  height: 320px;
+  border: none;
+  margin-top: 50px;
+}
+/* img card */
+.FeaturedProducts .container .row .card img {
+  object-fit: cover;
+  position: relative;
+  width: 300px;
+  height: 250px;
+}
+.FeaturedProducts .container .row .card:hover img {
+  filter: brightness(0.7);
+  transition: all 0.7s;
+}
+/* deatils of product */
+.FeaturedProducts .container .row .card .card-cotaine {
+  display: flex;
+  justify-content: space-around;
+}
+.FeaturedProducts .container .row .card .card-cotaine p {
+  font-size: 19px;
+  margin-top: 10px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.FeaturedProducts .container .row .card .card-cotaine h6 {
+  margin-top: 18px;
+  color: rgb(206, 110, 32);
+  margin-right: 10px;
+}
+
+/* shopping card display with hover cart */
+.FeaturedProducts .display-div {
+  position: absolute;
+  left: 180px;
+  top: 100px;
+  font-size: 30px;
+  color: rgb(206, 110, 32);
+  opacity: 0;
+}
+.FeaturedProducts .display-div:hover {
+  color: white;
+}
+.FeaturedProducts .container .row .card:hover .display-div {
+  opacity: 1;
+}
+/* button in bottom of this section */
+.FeaturedProducts button {
+  width: 230px;
+  margin: auto;
+  border: none;
+  border-bottom: 2px solid rgb(206, 110, 32);
+  background-color: transparent;
+  /* color: white; */
+  margin-top: 40px;
+  padding: 5px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.815);
+  margin-bottom: 30px;
+}
+
+.FeaturedProducts button:hover {
+  color: rgb(206, 110, 32);
+}

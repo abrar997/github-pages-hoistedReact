@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap");
+* {
+  font-family: "EB Garamond", serif;
+}
+
+.navbar {
+  margin-top: 10px;
+}
+/* nav bar header */
+.navbar .navbar-brand {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.842);
+}
+.navbar .navbar-brand span {
+  color: rgb(206, 110, 32);
+}
+
+/* list of navbar-links like home about... */
+.navbar .navbar-collapse {
+  margin: auto;
+  margin-left: 340px;
+}
+/* brand code/mu. */
+.navbar .navbar-collapse .nav-item .nav-link {
+  margin: auto;
+  font-size: 25px;
+  color: rgb(206, 110, 32);
+  text-transform: capitalize;
+}
+
+.navbar .navbar-collapse .nav-item .nav-link:hover {
+  color: rgba(0, 0, 0, 0.842);
+  border-bottom: 1px solid rgb(206, 110, 32);
+}
+
+.navbar-icons {
+  margin-right: 100px;
+}
+.navbar-icons li {
+  font-size: 22px;
+}
