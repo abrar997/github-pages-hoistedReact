@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/github-pages-hoistedReact/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/github-pages-hoistedReact/static/js/main.fa887c9e.chunk.js",
-    "main.js.map": "/github-pages-hoistedReact/static/js/main.fa887c9e.chunk.js.map",
-    "runtime-main.js": "/github-pages-hoistedReact/static/js/runtime-main.6364990b.js",
-    "runtime-main.js.map": "/github-pages-hoistedReact/static/js/runtime-main.6364990b.js.map",
-    "static/js/2.50151e5b.chunk.js": "/github-pages-hoistedReact/static/js/2.50151e5b.chunk.js",
-    "static/js/2.50151e5b.chunk.js.map": "/github-pages-hoistedReact/static/js/2.50151e5b.chunk.js.map",
-    "static/js/3.db0fa1fc.chunk.js": "/github-pages-hoistedReact/static/js/3.db0fa1fc.chunk.js",
-    "static/js/3.db0fa1fc.chunk.js.map": "/github-pages-hoistedReact/static/js/3.db0fa1fc.chunk.js.map",
+    "main.css": "/github-pages-hoistedReact/static/css/main.850da60e.chunk.css",
+    "main.js": "/github-pages-hoistedReact/static/js/main.40df560d.chunk.js",
+    "main.js.map": "/github-pages-hoistedReact/static/js/main.40df560d.chunk.js.map",
+    "runtime-main.js": "/github-pages-hoistedReact/static/js/runtime-main.de16da94.js",
+    "runtime-main.js.map": "/github-pages-hoistedReact/static/js/runtime-main.de16da94.js.map",
+    "static/css/2.a75f5a2c.chunk.css": "/github-pages-hoistedReact/static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.4dd6da32.chunk.js": "/github-pages-hoistedReact/static/js/2.4dd6da32.chunk.js",
+    "static/js/2.4dd6da32.chunk.js.map": "/github-pages-hoistedReact/static/js/2.4dd6da32.chunk.js.map",
+    "static/js/3.92d05d06.chunk.js": "/github-pages-hoistedReact/static/js/3.92d05d06.chunk.js",
+    "static/js/3.92d05d06.chunk.js.map": "/github-pages-hoistedReact/static/js/3.92d05d06.chunk.js.map",
     "index.html": "/github-pages-hoistedReact/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/github-pages-hoistedReact/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.50151e5b.chunk.js.LICENSE.txt": "/github-pages-hoistedReact/static/js/2.50151e5b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/github-pages-hoistedReact/static/media/logo.6ce24c58.svg"
+    "static/css/2.a75f5a2c.chunk.css.map": "/github-pages-hoistedReact/static/css/2.a75f5a2c.chunk.css.map",
+    "static/css/main.850da60e.chunk.css.map": "/github-pages-hoistedReact/static/css/main.850da60e.chunk.css.map",
+    "static/js/2.4dd6da32.chunk.js.LICENSE.txt": "/github-pages-hoistedReact/static/js/2.4dd6da32.chunk.js.LICENSE.txt",
+    "static/media/ba.a876f19f.jpeg": "/github-pages-hoistedReact/static/media/ba.a876f19f.jpeg",
+    "static/media/hero-bcg-2.78991864.78991864.jpeg": "/github-pages-hoistedReact/static/media/hero-bcg-2.78991864.78991864.jpeg",
+    "static/media/img1.a876f19f.jpeg": "/github-pages-hoistedReact/static/media/img1.a876f19f.jpeg",
+    "static/media/p1.fed95429.jpg": "/github-pages-hoistedReact/static/media/p1.fed95429.jpg",
+    "static/media/p2.2bd3a663.jpg": "/github-pages-hoistedReact/static/media/p2.2bd3a663.jpg",
+    "static/media/p3.0cb07394.jpg": "/github-pages-hoistedReact/static/media/p3.0cb07394.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6364990b.js",
-    "static/js/2.50151e5b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.fa887c9e.chunk.js"
+    "static/js/runtime-main.de16da94.js",
+    "static/css/2.a75f5a2c.chunk.css",
+    "static/js/2.4dd6da32.chunk.js",
+    "static/css/main.850da60e.chunk.css",
+    "static/js/main.40df560d.chunk.js"
   ]
 }
