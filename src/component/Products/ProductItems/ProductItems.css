@@ -1,0 +1,241 @@
+/* products */
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cards .card {
+  height: 350px;
+  margin-top: 20px;
+  box-shadow: 1px 1px 12px rgb(224, 223, 223);
+  border: none;
+padding: 10px;
+
+}
+.cards .card img {
+  height: 220px;
+  position: relative;
+}
+
+.cards .card:hover img {
+  filter: brightness(0.5);
+  transition: all 0.7s;
+}
+.cards .card .shopping-cart {
+  position: absolute;
+  left: 135px;
+  font-size: 30px;
+  top: 80px;
+  opacity: 0;
+}
+
+.cards .card:hover .shopping-cart {
+  opacity: 1;
+}
+
+.cards .card .shopping-icon {
+  color: rgb(206, 110, 32);
+}
+
+.cards .card .shopping-icon:hover {
+  color: white;
+}
+
+.cards .card .card-contain {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.cards .card .card-contain p {
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: rgb(206, 110, 32);
+}
+
+.cards .card .card-contain h6 {
+  margin-top: 8px;
+  font-size: 18px;
+  color: gray;
+}
+
+/* categ component */
+.categ-product {
+  border: 1px solid #eee;
+  margin: auto;
+  padding: 10px;
+  margin-top: 70px;
+  box-shadow: inset 0px 2px 17px 0px rgb(221, 216, 216);
+  text-transform: capitalize;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.categ-product h5 {
+  /* padding-bottom: 10px; */
+  width: 150px;
+}
+
+.categ-product > div {
+  margin-top: 10px;
+}
+.categ-product .Color span:first-child {
+  background: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+/* colors button */
+.categ-product .Color span:nth-child(1) {
+  background: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.categ-product .Color span:nth-child(2) {
+  background: green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.categ-product .Color span:nth-child(3) {
+  background: blue;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.categ-product .Color span:nth-child(4) {
+  background: black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 5px;
+}
+.categ-product .Color span:nth-child(5) {
+  background: gray;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.dropdown {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+.dropdown button {
+  background: transparent;
+  border: 1px solid #eee;
+  width: 200px;
+  font-size: 18px;
+  text-align: left;
+  font-size: 20px;
+  outline: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ NEW COMPONENT  */
+.Cards-Column{margin-top: 20px;}
+.Cards-Column .card {
+  height: 200px;
+  display: flex;
+  flex-flow: row;
+  margin-top: 10px;
+  position: relative;
+}
+
+.Cards-Column .card:hover {
+  box-shadow: 1px 1px 17px rgb(221, 215, 215);
+}
+
+.Cards-Column .card img {
+  height: 190px;
+  width: 300px;
+}
+
+.Cards-Column .card img:hover {
+  filter: brightness(0.5);
+  transition: all 0.7s;
+}
+
+/* shopping card icon */
+.shopping-icon-card {
+  position: absolute;
+  width: 100%;
+  font-size: 20px;
+}
+
+.shopping-icon-card button {
+  background-color: transparent;
+  border: none;
+  color: rgb(206, 110, 32);
+  position: absolute;
+  right: 10px;
+}
+
+.shopping-icon-card button:hover {
+  color: rgb(112, 54, 7);
+}
+
+/* icon for detail */
+.btn-detail {
+  background: transparent;
+  border: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 24px;
+  color: rgb(206, 110, 32);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.Cards-Column .card .card-contain {
+  margin-left: 100px;
+  text-transform: capitalize;
+}
+
+.Cards-Column .card .card-contain p {
+  font-size: 29px;
+  font-weight: 600;
+  color: rgb(206, 110, 32);
+}
+
+.Cards-Column .card .card-contain h6 {
+  font-size: 27px;
+}
+.Cards-Column .card {
+  display: flex;
+  flex-flow: row;
+  margin-top: 10px;
+}
+/* shopping card for colun component */
+.Cards-Column .card .card-contain button {
+  background-color: transparent;
+  border: none;
+  color: rgb(206, 110, 32);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 40px;
+  position: absolute;
+  right: 10px;
+  opacity: 0;
+}
+
+/* details button */
+
+.Cards-Column .card:hover .card-contain button {
+  opacity: 1;
+}
+
+.Cards-Column .card .card-contain button:hover {
+  color: rgb(112, 54, 7);
+}

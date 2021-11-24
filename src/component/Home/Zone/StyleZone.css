@@ -32,7 +32,8 @@
   background-color: rgb(156, 84, 25);
   transition: all 0.7s;
 }
-/* images-right larger img */
+/* zone section images */
+/* latger image */
 .zone-section .container .row .image-zone .img1 {
   z-index: 0;
   position: relative;

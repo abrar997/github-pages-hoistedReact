@@ -3,9 +3,13 @@ import { faAlignJustify, faShoppingCart, faUserTie } from "@fortawesome/free-sol
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // style
 import "./Header.css";
-import { BrowserRouter, NavLink } from "react-router-dom";
+import { BrowserRouter, Link, NavLink,Switch,Route } from "react-router-dom";
 import { Fragment } from "react";
+import { useCart } from "react-use-cart";
+import Home from "../Home";
 const Header = () => {
+const{totalItems}=useCart()
+
   return (
     <Fragment>
       <header>
@@ -17,7 +21,7 @@ const Header = () => {
                 to="/Home"
                 title="just try we believe that you can do it"
               >
-                code / <sapn style={{ color: "rgb(206, 110, 32)" }}>Mu.</sapn>
+                code / <span style={{ color: "rgb(206, 110, 32)" }}>Mu.</span>
               </NavLink>
               <button
                 className="navbar-toggler"
@@ -57,16 +61,16 @@ const Header = () => {
                 </ul>
               </div>
               <div className=" navbar-icons">
-                <li className="btn position-relative">
+                <li className="btn position-relative"><Link to="/Cart">
                   <FontAwesomeIcon
                     icon={faShoppingCart}
                     style={{ color: "rgba(0, 0, 0, 0.842)" }}
-                  />
+                  /></Link>
                   <span
                     class="position-absolute top-0 start-100 translate-middle badge rounded-pill"
                     style={{ backgroundColor: " rgb(206, 110, 32)" }}
                   >
-                    1<span class="visually-hidden">unread messages</span>
+                  {totalItems}<span class="visually-hidden">unread messages</span>
                   </span>
                 </li>
                 <li className="btn" title="sign up">
@@ -80,6 +84,9 @@ const Header = () => {
           </nav>
         </div>
       </header>
+      <Switch>
+        <Route component={Home} path="/Home"/>
+      </Switch>
     </Fragment>
   );
 };

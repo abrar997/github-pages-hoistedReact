@@ -10,7 +10,7 @@ height: 220px;
 
 .Subsecribe input[type="text"] {
   width: 80%;
-  margin-top: 40px;
+  margin-top: 28px;
   padding: 10px;
   margin-left: 40px;
 }
@@ -20,7 +20,7 @@ height: 220px;
   color: white;
   padding: 10px;
   font-size: 18px;
-  text-transform: capitalize;
+  text-transform: capitalize;margin-top: 14px;
 }
 
 .Subsecribe button:hover {

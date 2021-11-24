@@ -10,14 +10,15 @@ import "./FeaturedProducts.css";
 import img1 from "./FeaturedProductsImages/p1.jpg";
 import img2 from "./FeaturedProductsImages/p2.jpg";
 import img3 from "./FeaturedProductsImages/p3.jpg";
-
+import { useCart } from "react-use-cart";
 const FeaturedProducts = () => {
   const [featuredProducts, setFeaturedProducts] = useState([
-    { img: img1, p: "Entertainment center", h6: "$599.99" },
-    { img: img2, p: "high-back bench", h6: "$399.99" },
-    { img: img3, p: "Modern Bookshelf", h6: "$319.99" },
+    { id: 1, img: img1, text: "Entertainment center", price: "599.99" },
+    { id: 2, img: img2, text: "high-back bench", price: "399.99" },
+    { id: 3, img: img3, text: "Modern Bookshelf", price: "319.99" },
   ]);
   
+  const {addItem,items}=useCart()
   return (
     
     <section className="FeaturedProducts">
@@ -33,10 +34,13 @@ const FeaturedProducts = () => {
                     <img src={item.img} />
                   </div>
                   <div className="card-cotaine">
-                    <p>{item.p}</p>
-                    <h6>{item.h6}</h6>
+                    <p>{item.text}</p>
+                    <h6>${item.price}</h6>
                   </div>
-                  <div className="display-div btn">
+                  <div
+                    className="display-div btn"
+                    onClick={() => addItem(item,1)}
+                  >
                     <FontAwesomeIcon icon={faShoppingCart} />
                   </div>
                 </div>

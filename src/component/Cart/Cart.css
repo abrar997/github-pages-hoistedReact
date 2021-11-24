@@ -1,0 +1,105 @@
+/* ~~~~~~~~~~empty cart~~~~~~ */
+.empty-cart {
+  margin-top: 200px;
+}
+.empty-cart img {
+  margin-left: 620px;
+}
+
+/* ~~~~~~~~~~~~fall cart cards~~~~~~~ */
+.cart-fall {
+  margin-top: 100px;
+  height: 600px;
+}
+.text-left {
+  box-shadow: inset 1px 1px 19px 10px #eee;
+  text-align: center;
+  height: 200px;
+  text-transform: capitalize;
+  margin-top: 11px;
+}
+.cart-fall h2 {
+  padding-top: 60px;
+  margin-left: 10px;
+}
+
+.cart-fall .card {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #eee;
+  text-align: center;
+  height: 150px;
+  margin-top: 10px;
+}
+
+/* image in card */
+.cart img {
+  width: 240px;
+  height: 140px;
+}
+/* name and price */
+.cart-fall .textsss {
+  margin-left: 10px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.cart-fall .textsss h6 {
+  font-size: 20px;
+  color: gray;
+}
+
+/* +,- increament and decreament buttons */
+.cart-fall .cart-button {
+  position: absolute;
+  right: 180px;
+  top: 36px;
+}
+
+.cart-fall .cart-button button {
+  background-color: rgb(206, 110, 32);
+  border: none;
+  color: white;
+  font-size: 22px;
+  padding: 5px;
+  width: 40px;
+}
+/* remove button */
+.cartbtn {
+  position: absolute;
+  right: 30px;
+  top: 36px;
+  border: none;
+  font-size: 17px;
+  padding: 7px;
+  border: 1px solid rgb(206, 110, 32);
+  background-color: transparent;
+  color: rgb(206, 110, 32);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~total ptice and wmpty catt button ~~~~~~~~~~~`*/
+.total-price-cart {
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.total-price-cart button {
+  background-color: rgb(206, 110, 32);
+  color: white;
+  width: 140px;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin-left: 190px;
+}
+.total-price-cart h4 {
+  border-bottom: 1px solid rgb(206, 110, 32);
+  font-weight: 600;
+  color: gray;
+}
+.cart-fall button:hover {
+  background-color: rgb(92, 48, 12);
+  color: white;
+}
