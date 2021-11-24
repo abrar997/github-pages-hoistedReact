@@ -7,6 +7,7 @@ import { BrowserRouter, Link, NavLink,Switch,Route } from "react-router-dom";
 import { Fragment } from "react";
 import { useCart } from "react-use-cart";
 import Home from "../Home";
+import Undefined from "../../Undefined/Undefined";
 const Header = () => {
 const{totalItems}=useCart()
 
@@ -61,16 +62,19 @@ const{totalItems}=useCart()
                 </ul>
               </div>
               <div className=" navbar-icons">
-                <li className="btn position-relative"><Link to="/Cart">
-                  <FontAwesomeIcon
-                    icon={faShoppingCart}
-                    style={{ color: "rgba(0, 0, 0, 0.842)" }}
-                  /></Link>
+                <li className="btn position-relative">
+                  <Link to="/Cart">
+                    <FontAwesomeIcon
+                      icon={faShoppingCart}
+                      style={{ color: "rgba(0, 0, 0, 0.842)" }}
+                    />
+                  </Link>
                   <span
                     class="position-absolute top-0 start-100 translate-middle badge rounded-pill"
                     style={{ backgroundColor: " rgb(206, 110, 32)" }}
                   >
-                  {totalItems}<span class="visually-hidden">unread messages</span>
+                    {totalItems}
+                    <span class="visually-hidden">unread messages</span>
                   </span>
                 </li>
                 <li className="btn" title="sign up">
@@ -85,7 +89,7 @@ const{totalItems}=useCart()
         </div>
       </header>
       <Switch>
-        <Route component={Home} path="/Home"/>
+        <Route component={Home} path="/Home"  />
       </Switch>
     </Fragment>
   );

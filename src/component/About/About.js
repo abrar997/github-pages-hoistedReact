@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Footer from '../Home/Footer/Footer';
 // style
 import './About.css';
 // img
@@ -36,8 +37,9 @@ const About = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </section>
     );
 }
 
-export default About
+export default About;

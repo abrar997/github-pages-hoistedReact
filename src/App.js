@@ -9,21 +9,26 @@ import Footer from "./component/Home/Footer/Footer";
 import Products from "./component/Products/Producrs";
 import Cart from "./component/Cart/Cart";
 import { CartProvider } from "react-use-cart";
+import Undefined from "./component/Undefined/Undefined";
 
 const App = () => {
   return (
     <CartProvider>
       <BrowserRouter>
         <Header />
-      
-        <Switch>
-          <Route component={Home} path="/" exact />
+
+        <Switch>      
+          
+         <Route component={Home} path="/"  exact />
+
           <Route component={About} path="/About" />
           <Route component={Products} path="/Products" />
           <Route component={Cart} path="/Cart" />
+          <Route component={Undefined}  / >
+
           {/* <Route exact path="/products/:details" component={DetailsProduct} /> */}
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </CartProvider>
   );

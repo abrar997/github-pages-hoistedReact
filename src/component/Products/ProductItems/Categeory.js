@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./ProductItems.css";
 
-const Categeory = () => {
+
+
+const Categeory = ({ inputRef, onSearch }) => {
   return (
     <div className="categ-product">
       <div className="col-lg-12 mt-4">
@@ -17,12 +19,12 @@ const Categeory = () => {
         <div className="form mt-4 pt-4">
           <h5>sorted by .. </h5>
           <div className="form-contain">
-            <input type="checkbox" id="highest" />
+            <input type="radio" id="highest" />
             <label htmlFor="highest">highest price </label>
           </div>
 
           <div className="form-contain">
-            <input type="checkbox" id="lowest" />
+            <input type="radio" id="lowest" />
             <label htmlFor="lowest">lowest price </label>
           </div>
           <h5 style={{ marginTop: "40px" }}> sorted by color</h5>
@@ -40,12 +42,13 @@ const Categeory = () => {
               id="dropdownMenuButton1"
               data-bs-toggle="dropdown"
               aria-expanded="false"
-            >company
+            >
+              company
             </button>
             <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li>
                 <a className="dropdown-item" href="#">
-                Mu.A
+                  Mu.A
                 </a>
               </li>
               <li>

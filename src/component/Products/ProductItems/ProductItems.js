@@ -1,13 +1,15 @@
+import React from "react";
 import {
   faDirections,
   faShoppingCart,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
 import products from "./Data";
 import "./ProductItems.css";
 import { useCart } from "react-use-cart";
+
+
+
 const ProductItems = () => {
   const {addItem,items}=useCart();
   return (
@@ -23,8 +25,7 @@ const ProductItems = () => {
             <div className="shopping-cart btn">
                 <FontAwesomeIcon className="shopping-icon" icon={faShoppingCart} onClick={() => addItem(item, 1)}/>
             </div>
-            <button className="btn-detail" title="Details"                
->
+            <button className="btn-detail" title="Details" nmmb>
               <FontAwesomeIcon
                 icon={faDirections}
               />

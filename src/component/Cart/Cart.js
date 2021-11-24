@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import img1 from "./CartImages/cartempty.png";
 // style
 import './Cart.css';
+import Footer from "../Home/Footer/Footer";
 
 const Cart = () => {
   // grey color mean function
@@ -26,12 +27,10 @@ const Cart = () => {
         <h3
           style={{
             textAlign: "center",
-            // backgroundColor: " rgb(206, 110, 32)",
             color: "black",
             padding: "10px",
             color: "gray",
             fontWeight: "600",
-            // borderBottom: "1px solid  rgb(206, 110, 32)",
             textTransform: "capitalize",
             width: "400px",
             margin: "auto",
@@ -47,6 +46,7 @@ const Cart = () => {
           </Link>
         </h3>
         <img src={img1} />
+        {/* <Footer /> */}
       </div>
     );
   }
@@ -113,7 +113,10 @@ const Cart = () => {
         </div>
       </div>
     </div>
-</div>  );
+{/* <Footer /> */}
+</div> 
+
+);
 };
 
 export default Cart;
