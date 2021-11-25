@@ -8,6 +8,10 @@ import { Fragment } from "react";
 import { useCart } from "react-use-cart";
 import Home from "../Home";
 import Undefined from "../../Undefined/Undefined";
+import About from "../../About/About";
+import Products from "../../Products/Producrs";
+import Cart from "../../Cart/Cart";
+import DetailsProduct from '../../Products/DetailsProduct'
 const Header = () => {
 const{totalItems}=useCart()
 
@@ -90,6 +94,9 @@ const{totalItems}=useCart()
       </header>
       <Switch>
         <Route component={Home} path="/Home"  />
+        <Route component={About} path="/About" />
+        <Route component={Products} path="/Products" />
+        <Route component={Cart} path="/Cart" />
       </Switch>
     </Fragment>
   );

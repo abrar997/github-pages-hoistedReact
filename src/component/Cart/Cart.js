@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import img1 from "./CartImages/cartempty.png";
 // style
 import './Cart.css';
-import Footer from "../Home/Footer/Footer";
+// import Footer from "../Home/Footer/Footer";
 
 const Cart = () => {
   // grey color mean function
@@ -45,7 +45,7 @@ const Cart = () => {
             start now
           </Link>
         </h3>
-        <img src={img1} />
+        <img src={img1} className="col-sm-3 col-md-4" />
         {/* <Footer /> */}
       </div>
     );
@@ -65,13 +65,13 @@ const Cart = () => {
               total Items:({totalItems})
             </h5>
           </div>
-          <div className=" col-lg-8">
+          <div className=" col-lg-8 col-sm-12 col-md-12">
             {items.map((item) => (
               <div
                 key={item.id}
                 className="card col-lg-12 col-md-8 col-sm-8 p-10"
               >
-                <div className="imagesCart col-sm-4 col-md-4">
+                <div className="imagesCart col-sm-2 col-md-4 col-xs-3">
                   {/* cart image */}
                   <img src={item.img} />
                 </div>

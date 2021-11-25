@@ -1,5 +1,5 @@
-import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
+import React, { Fragment } from "react";
+import { BrowserRouter, BrowserRouter as Router } from "react-router-dom";
 import { Switch } from "react-router";
 import { Route } from "react-router";
 import Home from "./component/Home/Home";
@@ -14,18 +14,15 @@ import DetailsProduct from "./component/Products/DetailsProduct";
 const App = () => {
   return (
     <CartProvider>
-      <Router>
+      <BrowserRouter>
         <Header />
 
         <Switch>
           <Route component={Home} path="/" exact />
-          <Route component={About} path="/About" exact />
-          <Route component={Products} path="/Products" exact />
-          <Route component={Cart} path="/Cart" exact />
-          <Route component={Undefined} exact />
-          <Route path="/Products/:id" component={DetailsProduct} exact />
+          {/* <Route component={Undefined}  /> */}
+          <Route path="/Products/:id" component={DetailsProduct} />   
         </Switch>
-      </Router>
+      </BrowserRouter>
     </CartProvider>
   );
 };

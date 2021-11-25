@@ -19,7 +19,7 @@ const Zone = () => {
               odit, aperiam odio ducimus, obcaecati libero et quia tempora
               excepturi quis alias?
             </p>
-            <Link to="/">
+            <Link to="/Products">
               <button>start now</button>
             </Link>
           </div>
