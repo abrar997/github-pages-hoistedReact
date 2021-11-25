@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import products from "./Data";
 import "./ProductItems.css";
 import { useCart } from "react-use-cart";
+import { Link } from "react-router-dom";
 
 
 
@@ -23,12 +24,17 @@ const ProductItems = () => {
               <h6>$ {item.price} </h6>
             </div>
             <div className="shopping-cart btn">
-                <FontAwesomeIcon className="shopping-icon" icon={faShoppingCart} onClick={() => addItem(item, 1)}/>
+              <FontAwesomeIcon
+                className="shopping-icon"
+                icon={faShoppingCart}
+                onClick={() => addItem(item, 1)}
+              />
             </div>
             <button className="btn-detail" title="Details" nmmb>
-              <FontAwesomeIcon
-                icon={faDirections}
-              />
+              <Link to={`/ProductItems/${item.id}`}>
+                {/* <Link to={"/Products/"+item.id}> */}
+                <FontAwesomeIcon icon={faDirections} />
+              </Link>
             </button>
           </div>
         );
