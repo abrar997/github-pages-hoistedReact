@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import img1 from "./CartImages/cartempty.png";
 // style
 import './Cart.css';
+import Header from "../Home/Header/Header";
 // import Footer from "../Home/Footer/Footer";
 
 const Cart = () => {
@@ -54,69 +55,92 @@ const Cart = () => {
 
 // ~~~~~~~~~~~~~~~ cart with items ~~~~~~~~~~~
   return (
-<div className="cart">
-<div className="cart-fall">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-3 text-left">
-            <h2>shopping cart </h2>
-            <h5 style={{ color: "gray" }}>
-              {/* Cart ({totalUniqueItems}) */}
-              total Items:({totalItems})
-            </h5>
-          </div>
-          <div className=" col-lg-8 col-sm-12 col-md-12">
-            {items.map((item) => (
-              <div
-                key={item.id}
-                className="card col-lg-12 col-md-8 col-sm-8 p-10"
-              >
-                <div className="imagesCart col-sm-2 col-md-4 col-xs-3">
-                  {/* cart image */}
-                  <img src={item.img} />
-                </div>
+    <div className="cart">
+      <Header />
 
-                <div className="textsss pb-4 ">
-                  {/* text in cart */}
-                  <h3>{item.text} </h3>
+      <div className="cart-fall">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 text-left">
+              <h2>shopping cart </h2>
+              <h5 style={{ color: "gray" }}>
+                {/* Cart ({totalUniqueItems}) */}
+                total Items:({totalItems})
+              </h5>
+            </div>
+            <div className=" col-lg-8 col-sm-12 col-md-12">
+              {items.map((item) => (
+                <div
+                  key={item.id}
+                  className="card col-lg-12 col-md-8 col-sm-8 p-10"
+                >
+                  <div className="imagesCart col-sm-2 col-md-4 col-xs-3">
+                    {/* cart image */}
+                    <img src={item.img} />
+                  </div>
 
-                  <h6>${item.price}</h6>
+                  <div className="textsss pb-4 ">
+                    {/* text in cart */}
+                    <h3>{item.text} </h3>
+
+                    <h6>${item.price}</h6>
+                  </div>
+                  <div className="cart-button">
+                    <button
+                      onClick={() =>
+                        updateItemQuantity(item.id, item.quantity - 1)
+                      }
+                    >
+                      {" "}
+                      -
+                    </button>
+                    <span
+                      style={{
+                        fontSize: "22px",
+                        margin: "0 10px 0 5px",
+                        fontWeight: "600",
+                      }}
+                    >
+                      {" "}
+                      {item.quantity}
+                    </span>
+                    <button
+                      onClick={() =>
+                        updateItemQuantity(item.id, item.quantity + 1)
+                      }
+                    >
+                      {" "}
+                      +
+                    </button>
+                  </div>
+                  <div>
+                    {" "}
+                    <button
+                      className="cartbtn"
+                      onClick={() => removeItem(item.id)}
+                    >
+                      {/* <FontAwesomeIcon icon={faTrashAlt}/> */}
+                      remove
+                    </button>
+                  </div>
                 </div>
-                <div className="cart-button">
-                  <button
-                    onClick={() =>
-                      updateItemQuantity(item.id, item.quantity - 1)
-                    }
-                  > -
-                  </button>
-                 <span style={{fontSize:"22px",margin:"0 10px 0 5px",fontWeight:"600"}}> {item.quantity}</span>
-                  <button
-                    onClick={() =>
-                      updateItemQuantity(item.id, item.quantity + 1)
-                    }>  +
-                  </button>
-                </div>
-              <div >  <button className="cartbtn" onClick={() => removeItem(item.id)}>
-                 {/* <FontAwesomeIcon icon={faTrashAlt}/> */}
-                 remove
+              ))}
+              <div className="total-price-cart d-flex">
+                <h4>Total price : {cartTotal} $ </h4>
+                <button
+                  className="btn empty-cart-btn"
+                  onClick={() => emptyCart()}
+                >
+                  empty cart
                 </button>
-              </div></div>
-            ))}
-             <div className="total-price-cart d-flex">
-            <h4>Total price : {cartTotal} $ </h4>
-            <button className="btn empty-cart-btn" onClick={() => emptyCart()}>
-              empty cart
-            </button>
+              </div>
+            </div>
           </div>
-          </div>
-         
         </div>
       </div>
+      {/* <Footer /> */}
     </div>
-{/* <Footer /> */}
-</div> 
-
-);
+  );
 };
 
 export default Cart;

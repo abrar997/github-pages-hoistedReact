@@ -1,12 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../Home/Footer/Footer';
+import Header from '../Home/Header/Header';
 // style
 import './About.css';
 // img
 import img1 from "./AboutImage/ba.jpeg";
 const About = () => {
     return (
+      <>      <Header />
+
       <section className="About-section">
         <h1>
           <Link to="/Home" style={{ paddingRight:"10px",color: "white", textDecoration: "none" }}>
@@ -39,7 +42,7 @@ const About = () => {
         </div>
         <Footer />
       </section>
-    );
+    </>);
 }
 
 export default About;

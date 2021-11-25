@@ -9,6 +9,7 @@ import { faGripHorizontal, faGripVertical } from "@fortawesome/free-solid-svg-ic
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProductsItemsColumn from "./ProductItems/ProductsItemsColumn";
 import Footer from "../Home/Footer/Footer";
+import Header from "../Home/Header/Header";
 
 
 const Products = () => {
@@ -23,6 +24,7 @@ const Products = () => {
 
   return (
     <section className="Products">
+      <Header />
       <h1>
         <NavLink
           to="/Home"

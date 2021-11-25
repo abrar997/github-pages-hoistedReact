@@ -92,12 +92,12 @@ const{totalItems}=useCart()
           </nav>
         </div>
       </header>
-      <Switch>
-        <Route component={Home} path="/Home"  />
+      {/* <Switch> */}
+        {/* <Route component={Home} path="/Home"  />
         <Route component={About} path="/About" />
         <Route component={Products} path="/Products" />
-        <Route component={Cart} path="/Cart" />
-      </Switch>
+        <Route component={Cart} path="/Cart" /> */}
+      {/* </Switch> */}
     </Fragment>
   );
 };
