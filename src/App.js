@@ -19,14 +19,12 @@ const App = () => {
 
         <Switch>
           <Route component={Home} path="/" exact />
-          <Route component={About} path="/About" />
-          <Route component={Products} path="/Products" />
-          <Route component={Cart} path="/Cart" />
-          {/* <Route component={Undefined} /> */}
-          <Route path="/DetailsProduct/:id" component={DetailsProduct} />
-          <Route path="/DetailsProduct" component={DetailsProduct} />
+          <Route component={About} path="/About" exact />
+          <Route component={Products} path="/Products" exact />
+          <Route component={Cart} path="/Cart" exact />
+          <Route component={Undefined} exact />
+          <Route path="/Products/:id" component={DetailsProduct} exact />
         </Switch>
-        {/* <Footer /> */}
       </Router>
     </CartProvider>
   );

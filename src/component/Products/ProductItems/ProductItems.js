@@ -31,7 +31,7 @@ const ProductItems = () => {
               />
             </div>
             <button className="btn-detail" title="Details" nmmb>
-              <Link to={`/ProductItems/${item.id}`}>
+              <Link to={`/Products/${item.id}`}>
                 {/* <Link to={"/Products/"+item.id}> */}
                 <FontAwesomeIcon icon={faDirections} />
               </Link>

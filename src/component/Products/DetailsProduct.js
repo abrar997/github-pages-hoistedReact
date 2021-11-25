@@ -8,7 +8,7 @@ const DetailsProduct = () => {
     <div className="container">
       <div className="row">
         {products.data
-        //   .filter((card) => card.id === id)
+          .filter((card) => card.id === id)
           .map((cardDetail, ind) => {
             return (
               <div key={ind}>
