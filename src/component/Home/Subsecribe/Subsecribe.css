@@ -27,3 +27,21 @@ height: 220px;
   background-color: rgb(156, 84, 25);
   transition: all 0.7s;
 }
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width: 575.98px) */
+@media (max-width: 575.98px){
+  .Subsecribe{margin-top: 840px;
+  margin-bottom: 100px;}
+
+.Subsecribe h1{font-size: 22px;
+text-align: center;}
+.Subsecribe p{font-size: 14px;
+text-align: center;}
+.Subsecribe button{margin-left: 180px;
+}
+
+
+
+}

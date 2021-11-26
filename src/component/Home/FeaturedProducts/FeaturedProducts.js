@@ -26,10 +26,10 @@ const FeaturedProducts = () => {
         <div className="row">
           <h1>Featured Products</h1>
           <p>some of our prducts categeories loream with us ... </p>
-          <div className="d-flex">
-            {featuredProducts.map((item) => {
+          <div className="cards d-flex">
+            {featuredProducts.map((item,ind) => {
               return (
-                <div className="card col-lg-4 col-sm-12">
+                <div className="card col-lg-4 col-xs-12  col-sm-12" key={ind}>
                   <div className="card-image">
                     <img src={item.img} />
                   </div>

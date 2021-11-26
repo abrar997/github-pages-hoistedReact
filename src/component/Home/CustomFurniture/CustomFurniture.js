@@ -24,9 +24,12 @@ const CustomFurniture = () => {
               dolore aut vero consequuntur.
             </p>
           </div>
-          <div className="d-flex">
-            <div className="card col-lg-4">
-             <h3> <FontAwesomeIcon icon={faCompass} /></h3>
+          <div className="d-flex cards">
+            <div className="card col-lg-4  col-sm-12 col-md-4 ">
+              <h3>
+                {" "}
+                <FontAwesomeIcon icon={faCompass} />
+              </h3>
               <h1>Mission</h1>
               <h6>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
@@ -34,8 +37,11 @@ const CustomFurniture = () => {
                 dolore aut vero consequuntur.
               </h6>
             </div>
-            <div className="card col-lg-4">
-           <h3>   <FontAwesomeIcon icon={faGem} /></h3>
+            <div className="card col-lg-4 col-sm-12 col-sm-12 col-md-4">
+              <h3>
+                {" "}
+                <FontAwesomeIcon icon={faGem} />
+              </h3>
               <h1>vision</h1>
               <h6>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
@@ -43,8 +49,11 @@ const CustomFurniture = () => {
                 dolore aut vero consequuntur.
               </h6>
             </div>
-            <div className="card col-lg-4">
-          <h3>    <FontAwesomeIcon icon={faFeatherAlt} /> </h3>
+            <div className="card col-lg-4 col-sm-12 col-sm-12 col-md-4">
+              <h3>
+                {" "}
+                <FontAwesomeIcon icon={faFeatherAlt} />{" "}
+              </h3>
               <h1>history</h1>
               <h6>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe

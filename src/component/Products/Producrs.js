@@ -1,18 +1,26 @@
-import React, {useState } from "react";
-import products from './ProductItems/Data'
+import React, { useState } from "react";
+import products from "./ProductItems/Data";
 // style
 import "./Products.css";
 import { NavLink } from "react-router-dom";
 import Categeory from "./ProductItems/Categeory";
 import ProductItems from "./ProductItems/ProductItems";
-import { faGripHorizontal, faGripVertical } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGripHorizontal,
+  faGripVertical,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ProductsItemsColumn from "./ProductItems/ProductsItemsColumn";
 import Footer from "../Home/Footer/Footer";
 import Header from "../Home/Header/Header";
 
-
 const Products = () => {
+const [highsetPriceDisplay, sethighsetPriceDisplay] = useState( products.data)
+const [seachHighet, setseachHighet] = useState(products.data)
+
+
+
+  //display data as vertical and horizontal
   const [Prodtctshow, setProdtctshow] = useState(<ProductItems />);
   const handleChangeProducts = () => {
     setProdtctshow(<ProductItems />);

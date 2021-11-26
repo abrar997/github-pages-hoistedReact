@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 
 const ProductItems = () => {
-  const {addItem,items}=useCart();
+  const {addItem}=useCart();
   return (
     <div className="cards">
       {products.data.map((item, ind) => {

@@ -3,7 +3,19 @@
   margin-top: 200px;
 }
 .empty-cart img {
-  margin-left: 620px;
+  margin-left: 580px;
+}
+.empty-cart h3 {
+  text-align: center;
+  color: black;
+  padding: 10px;
+  color: gray;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 600px;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 32px;
 }
 
 /* ~~~~~~~~~~~~fall cart cards~~~~~~~ */
@@ -81,7 +93,7 @@
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-/* ~~~~~~~~~~~~~total ptice and wmpty catt button ~~~~~~~~~~~`*/
+/* ~~~~~~~~~~~~~total ptice and empty cart button ~~~~~~~~~~~`*/
 .total-price-cart {
   justify-content: space-around;
   margin-top: 100px;
@@ -102,4 +114,62 @@
 .cart-fall button:hover {
   background-color: rgb(92, 48, 12);
   color: white;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width:575.98px) */
+@media (max-width: 575.98px) {
+  .empty-cart {
+    margin-top: -10px;
+    margin-top: 90px;
+  }
+  .empty-cart h3 {
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+  }
+
+  .empty-cart img {
+    position: absolute;
+    left: -530px;
+    width: 70%;
+  }
+  .cart-fall h2 {
+    font-size: 17px;
+  }
+  .cart-fall h6 {
+    font-size: 10px;
+  }
+
+  .cart-fall .card {
+    width: 100%;
+  }
+  .cart-fall .card img {
+    width: 70px;
+    height: 80px;
+  }
+  .cart-fall .textsss h6 {
+    font-size: 10px;
+  }
+  .cart-fall .textsss h3 {
+    font-size: 15px;
+  }
+  .cartbtn {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .cart-button {
+    margin-right: -100px;
+    font-size: 15px;
+  }
+
+  .cart-fall .cart-button button {
+    font-size: 10px;
+    width: 15px;
+  }
+
+.total-price-cart h4 {
+font-size: 14px;}
+.total-price-cart button{font-size: 12px;}
+
 }

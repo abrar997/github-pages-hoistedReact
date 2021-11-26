@@ -23,11 +23,11 @@
   background-color: rgb(167, 135, 109);
   text-align: center;
   padding: 10px;
-  margin-top: 60px;
+  margin-top: 40px;
   height: 240px;
   border: none;
-  /* box-shadow: 1px 1px 17px rgba(104, 49, 4, 0.719); */
-  /* border-top: 1px solid #eee; */
+width: 400px;
+box-shadow: none;
 }
 .CustomFurniture .container .row .card h3 {
   background-color: #eee;
@@ -42,4 +42,29 @@
 
 .CustomFurniture .container .row .card h6 {
   padding-bottom: 70px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width: 575.98px) */
+@media (max-width: 575.98px) {
+  .CustomFurniture h1 {
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .CustomFurniture .container .row p {
+    display: none;
+  }
+
+  .CustomFurniture .container .row .card {
+    box-shadow: none;
+  }
+
+  .CustomFurniture .container .row .card h1 {
+    font-size: 20px;
+  }
+  .CustomFurniture .container .row .card h6 {
+    font-size: 14px;
+  }
 }

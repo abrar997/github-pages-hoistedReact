@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="row">
-          <div class=" item social m-auto">
+          <div className=" item social m-auto">
             <a href="#">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
@@ -22,7 +22,7 @@ const Footer = () => {
               <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
-          <p class="copyright">© 2021 code/Mu. All Rights Reserved</p>
+          <p className="copyright">© 2021 code/Mu. All Rights Reserved</p>
         </div>
       </div>
     </footer>

@@ -18,13 +18,12 @@ const App = () => {
       <Router>
         <CartProvider>
           <Switch>
-            <Route component={Home} path="./"  />
             <Route component={Home} path="/Home" />
             <Route component={About} path="/About" />
             <Route component={Products} path="/Products" />
             <Route component={Cart} path="/Cart" />
-            <Route component={Undefined}  />
-            {/* <Route path="/Products/:id" component={DetailsProduct} /> */}
+            <Route component={Undefined} />
+            <Route path="/Products/:id" component={DetailsProduct}  />
           </Switch>
         </CartProvider>
       </Router>

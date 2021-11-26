@@ -3,20 +3,15 @@ import { faAlignJustify, faShoppingCart, faUserTie } from "@fortawesome/free-sol
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // style
 import "./Header.css";
-import { BrowserRouter, Link, NavLink,Switch,Route } from "react-router-dom";
-import { Fragment } from "react";
+// react-routet
+import {Link, NavLink} from "react-router-dom";
 import { useCart } from "react-use-cart";
-import Home from "../Home";
-import Undefined from "../../Undefined/Undefined";
-import About from "../../About/About";
-import Products from "../../Products/Producrs";
-import Cart from "../../Cart/Cart";
-import DetailsProduct from '../../Products/DetailsProduct'
+
 const Header = () => {
 const{totalItems}=useCart()
 
   return (
-    <Fragment>
+    <>
       <header>
         <div className="container">
           <nav className="navbar navbar-expand-lg">
@@ -74,11 +69,11 @@ const{totalItems}=useCart()
                     />
                   </Link>
                   <span
-                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill"
+                    className="position-absolute top-0 start-100 translate-middle badge rounded-pill"
                     style={{ backgroundColor: " rgb(206, 110, 32)" }}
                   >
                     {totalItems}
-                    <span class="visually-hidden">unread messages</span>
+                    <span className="visually-hidden">unread messages</span>
                   </span>
                 </li>
                 <li className="btn" title="sign up">
@@ -92,13 +87,8 @@ const{totalItems}=useCart()
           </nav>
         </div>
       </header>
-      {/* <Switch> */}
-        {/* <Route component={Home} path="/Home"  />
-        <Route component={About} path="/About" />
-        <Route component={Products} path="/Products" />
-        <Route component={Cart} path="/Cart" /> */}
-      {/* </Switch> */}
-    </Fragment>
+  
+    </>
   );
 };
 

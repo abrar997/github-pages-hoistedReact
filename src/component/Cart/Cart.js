@@ -23,21 +23,11 @@ const Cart = () => {
 
   // ~~~~~~~~~~~~is empty ~~~~~~~~~~~~~~
   if (isEmpty) {
-    return (
+    return (<>
+      <Header/>
       <div className="empty-cart">
         <h3
-          style={{
-            textAlign: "center",
-            color: "black",
-            padding: "10px",
-            color: "gray",
-            fontWeight: "600",
-            textTransform: "capitalize",
-            width: "400px",
-            margin: "auto",
-            marginTop: "60px",
-          }}
-        >
+       className="h-empty-cart" >
           Your cart is empty back and add what u need ....
           <Link
             to="/Products"
@@ -48,7 +38,7 @@ const Cart = () => {
         </h3>
         <img src={img1} className="col-sm-3 col-md-4" />
         {/* <Footer /> */}
-      </div>
+      </div></>
     );
   }
 // /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~``
@@ -91,7 +81,6 @@ const Cart = () => {
                         updateItemQuantity(item.id, item.quantity - 1)
                       }
                     >
-                      {" "}
                       -
                     </button>
                     <span
@@ -101,7 +90,6 @@ const Cart = () => {
                         fontWeight: "600",
                       }}
                     >
-                      {" "}
                       {item.quantity}
                     </span>
                     <button
@@ -109,12 +97,10 @@ const Cart = () => {
                         updateItemQuantity(item.id, item.quantity + 1)
                       }
                     >
-                      {" "}
                       +
                     </button>
                   </div>
                   <div>
-                    {" "}
                     <button
                       className="cartbtn"
                       onClick={() => removeItem(item.id)}

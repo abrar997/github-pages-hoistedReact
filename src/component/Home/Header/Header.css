@@ -39,3 +39,41 @@
 .navbar-icons li {
   font-size: 22px;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width: 575.98px) */
+
+@media (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar .navbar-brand {
+    font-size: 19px;
+  }
+
+  .navbar-icons li {
+    font-size: 15px;
+  }
+  .navbar-icons {
+    position: absolute;
+    left: 140px;
+    display: flex;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 10px;
+  }
+
+  .navbar .navbar-collapse {
+    height: 200px;
+    position: absolute;
+    right: -12px;
+    top: 70px;
+  background-color: white;
+  width: 200px;
+  text-align: center;
+  }
+  .navbar .navbar-collapse .nav-item .nav-link {
+    font-size: 17px;
+  }
+}

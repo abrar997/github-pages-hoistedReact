@@ -1,27 +1,33 @@
-import React from 'react'
-import img1 from './imagenotfound/img.png' 
-import {Link} from 'react-router-dom'
+import React from "react";
+import img1 from "./imagenotfound/img2.png";
+import { Link, NavLink } from "react-router-dom";
+import Header from "../Home/Header/Header";
+import Footer from "../Home/Footer/Footer";
 
-const error_page={  textAlign: "center",
-  marginTop:"200px",
-  textTransform: "capitalize"} 
-    const Undefined = () => {
-
-
-    return (
+const error_page = {
+  textAlign: "center",
+  marginTop: "200px",
+  textTransform: "capitalize",
+};
+const Undefined = () => {
+  return (
+    <>
+      <Header />
       <div style={error_page}>
         <div className="container">
           <div className="row">
             <h1>
-              seems like you have lost your way. let's bring you back
+              welcome in our shop ,enjoy shopping with us.
               <br />
-              <Link to="/Home">Home</Link>
+              <NavLink to="/Home" activeClassName="mt-4">start shopping now</NavLink>
             </h1>
-            <img src={img1} style={{ width: "30%", margin: "auto" }} />
+            <img src={img1} style={{ width: "50%", margin: "auto" }} />
           </div>
         </div>
       </div>
-    );
-}
+      <Footer />
+    </>
+  );
+};
 
 export default Undefined;

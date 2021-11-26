@@ -46,3 +46,35 @@
   right: 650px;
   bottom: 20px;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width: 575.98px) */
+@media (max-width: 575.98px) {
+  .zone-section {
+    margin-top: -120px;
+  }
+  .zone-section h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .zone-section .container .row .text-zone p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .zone-section .container .row .text-zone button {
+    font-size: 15px;
+    padding: 5px;
+    width: 100px;
+    margin-left: 130px;
+  }
+
+  .zone-section .container .row .image-zone .img1 {
+    margin-left: 47px;
+    margin-top: 40px;
+    height: 100%;
+    max-height: 200px;
+  }
+  .zone-section .container .row .image-zone .img2 {
+    display: none;
+  }
+}
