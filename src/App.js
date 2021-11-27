@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import { BrowserRouter, BrowserRouter as Router } from "react-router-dom";
+import React from "react";
+import { HashRouter as Router } from "react-router-dom";
 import { Switch } from "react-router";
 import { Route } from "react-router";
 import Home from "./component/Home/Home";
