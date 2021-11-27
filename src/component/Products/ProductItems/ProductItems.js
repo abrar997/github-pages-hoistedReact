@@ -14,6 +14,7 @@ import { Link } from "react-router-dom";
 const ProductItems = () => {
   const {addItem}=useCart();
   return (
+    <div className="products-verical">
     <div className="cards">
       {products.data.map((item, ind) => {
         return (
@@ -39,7 +40,7 @@ const ProductItems = () => {
           </div>
         );
       })}
-    </div>
+    </div></div>
   );
 };
 

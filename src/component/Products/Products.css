@@ -42,3 +42,16 @@
   width: 100%;
   display: none;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width:575.98px) */
+@media (max-width: 575.98px) {
+.Products h1{font-size: 20px;
+margin-bottom: -120px;
+}
+.Products h1 .activeProducts {
+margin-left: -170px;
+font-size: 20px;
+}
+
+}

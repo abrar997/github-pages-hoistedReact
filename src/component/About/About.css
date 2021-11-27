@@ -8,6 +8,7 @@
   font-size: 36px;
   padding-left: 200px;
   word-spacing: 10px;
+  font-size: 29px;
 }
 
 .About-section .container .row h2 {
@@ -23,4 +24,32 @@
 .About-section .container .row img {
   margin-left: 100px;
   margin-top: 40px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@media (max-width:575.98px) */
+@media (max-width: 575.98px) {
+  .About-section h1 {
+    font-size: 20px;
+    margin-left: -180px;
+    margin-top: -60px;
+  }
+  .About-section .container .row h2 {
+    font-size: 25px;
+    margin-top: -10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .About-section .container .row p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: -10px;
+    margin-top: 10px;
+  }
+}
+.About-section .container .row img {
+  margin: auto;
+  height: 100%;
+  max-height: 160px;
+  margin-left: 20px;
+  /* margin-bottom: -70px; */
 }

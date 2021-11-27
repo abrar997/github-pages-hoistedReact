@@ -1,6 +1,6 @@
 .Subsecribe {
   margin-top: 400px;
-height: 220px;
+  height: 220px;
 }
 
 .Subsecribe h1 {
@@ -20,7 +20,8 @@ height: 220px;
   color: white;
   padding: 10px;
   font-size: 18px;
-  text-transform: capitalize;margin-top: 14px;
+  text-transform: capitalize;
+  margin-top: 14px;
 }
 
 .Subsecribe button:hover {
@@ -28,20 +29,23 @@ height: 220px;
   transition: all 0.7s;
 }
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA QUERY~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /*@media (max-width: 575.98px) */
-@media (max-width: 575.98px){
-  .Subsecribe{margin-top: 840px;
-  margin-bottom: 100px;}
+@media (max-width: 575.98px) {
+  .Subsecribe {
+    margin-top: 840px;
+    margin-bottom: 100px;
+  }
 
-.Subsecribe h1{font-size: 22px;
-text-align: center;}
-.Subsecribe p{font-size: 14px;
-text-align: center;}
-.Subsecribe button{margin-left: 180px;
-}
-
-
-
+  .Subsecribe h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .Subsecribe p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .Subsecribe button {
+    margin-left: 130px;
+  }
 }
