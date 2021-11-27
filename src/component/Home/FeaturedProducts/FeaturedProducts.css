@@ -91,11 +91,15 @@
   .FeaturedProducts h1 {
     font-size: 24px;
   }
+
   .FeaturedProducts .container .row p {
     font-size: 17px;
   }
+.FeaturedProducts .container .row .cards{display: flex;
+flex-flow: column;}
   .FeaturedProducts .card {
     margin: auto;
+    width: 100%;
   }
   .FeaturedProducts .display-div {
     position: absolute;

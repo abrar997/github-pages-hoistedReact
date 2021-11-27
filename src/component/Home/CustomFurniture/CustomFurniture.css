@@ -26,8 +26,8 @@
   margin-top: 40px;
   height: 240px;
   border: none;
-width: 400px;
-box-shadow: none;
+  width: 400px;
+  box-shadow: none;
 }
 .CustomFurniture .container .row .card h3 {
   background-color: #eee;
@@ -56,9 +56,16 @@ box-shadow: none;
   .CustomFurniture .container .row p {
     display: none;
   }
+  .CustomFurniture .container .row .cards {
+    display: flex;
+    flex-flow: column;
+  }
 
   .CustomFurniture .container .row .card {
     box-shadow: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .CustomFurniture .container .row .card h1 {
