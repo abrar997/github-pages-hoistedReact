@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/github-pages-hoistedReact/static/css/main.71c4b23d.chunk.css",
-    "main.js": "/github-pages-hoistedReact/static/js/main.49c6b839.chunk.js",
-    "main.js.map": "/github-pages-hoistedReact/static/js/main.49c6b839.chunk.js.map",
+    "main.css": "/github-pages-hoistedReact/static/css/main.0f44c336.chunk.css",
+    "main.js": "/github-pages-hoistedReact/static/js/main.0b4f2421.chunk.js",
+    "main.js.map": "/github-pages-hoistedReact/static/js/main.0b4f2421.chunk.js.map",
     "runtime-main.js": "/github-pages-hoistedReact/static/js/runtime-main.a640a153.js",
     "runtime-main.js.map": "/github-pages-hoistedReact/static/js/runtime-main.a640a153.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/github-pages-hoistedReact/static/css/2.a75f5a2c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.6d6c5ef6.chunk.js.map": "/github-pages-hoistedReact/static/js/3.6d6c5ef6.chunk.js.map",
     "index.html": "/github-pages-hoistedReact/index.html",
     "static/css/2.a75f5a2c.chunk.css.map": "/github-pages-hoistedReact/static/css/2.a75f5a2c.chunk.css.map",
-    "static/css/main.71c4b23d.chunk.css.map": "/github-pages-hoistedReact/static/css/main.71c4b23d.chunk.css.map",
+    "static/css/main.0f44c336.chunk.css.map": "/github-pages-hoistedReact/static/css/main.0f44c336.chunk.css.map",
     "static/js/2.b8391e1e.chunk.js.LICENSE.txt": "/github-pages-hoistedReact/static/js/2.b8391e1e.chunk.js.LICENSE.txt",
     "static/media/acc.10da3e71.jpg": "/github-pages-hoistedReact/static/media/acc.10da3e71.jpg",
     "static/media/alb.8f2f7415.jpg": "/github-pages-hoistedReact/static/media/alb.8f2f7415.jpg",
@@ -45,7 +45,7 @@
     "static/js/runtime-main.a640a153.js",
     "static/css/2.a75f5a2c.chunk.css",
     "static/js/2.b8391e1e.chunk.js",
-    "static/css/main.71c4b23d.chunk.css",
-    "static/js/main.49c6b839.chunk.js"
+    "static/css/main.0f44c336.chunk.css",
+    "static/js/main.0b4f2421.chunk.js"
   ]
 }
