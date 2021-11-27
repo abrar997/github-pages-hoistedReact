@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/github-pages-hoistedReact/static/css/main.10c56cb0.chunk.css",
-    "main.js": "/github-pages-hoistedReact/static/js/main.0b4f2421.chunk.js",
-    "main.js.map": "/github-pages-hoistedReact/static/js/main.0b4f2421.chunk.js.map",
+    "main.js": "/github-pages-hoistedReact/static/js/main.68e533aa.chunk.js",
+    "main.js.map": "/github-pages-hoistedReact/static/js/main.68e533aa.chunk.js.map",
     "runtime-main.js": "/github-pages-hoistedReact/static/js/runtime-main.a640a153.js",
     "runtime-main.js.map": "/github-pages-hoistedReact/static/js/runtime-main.a640a153.js.map",
     "static/css/2.a75f5a2c.chunk.css": "/github-pages-hoistedReact/static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.b8391e1e.chunk.js": "/github-pages-hoistedReact/static/js/2.b8391e1e.chunk.js",
-    "static/js/2.b8391e1e.chunk.js.map": "/github-pages-hoistedReact/static/js/2.b8391e1e.chunk.js.map",
+    "static/js/2.7775e8f2.chunk.js": "/github-pages-hoistedReact/static/js/2.7775e8f2.chunk.js",
+    "static/js/2.7775e8f2.chunk.js.map": "/github-pages-hoistedReact/static/js/2.7775e8f2.chunk.js.map",
     "static/js/3.6d6c5ef6.chunk.js": "/github-pages-hoistedReact/static/js/3.6d6c5ef6.chunk.js",
     "static/js/3.6d6c5ef6.chunk.js.map": "/github-pages-hoistedReact/static/js/3.6d6c5ef6.chunk.js.map",
     "index.html": "/github-pages-hoistedReact/index.html",
     "static/css/2.a75f5a2c.chunk.css.map": "/github-pages-hoistedReact/static/css/2.a75f5a2c.chunk.css.map",
     "static/css/main.10c56cb0.chunk.css.map": "/github-pages-hoistedReact/static/css/main.10c56cb0.chunk.css.map",
-    "static/js/2.b8391e1e.chunk.js.LICENSE.txt": "/github-pages-hoistedReact/static/js/2.b8391e1e.chunk.js.LICENSE.txt",
+    "static/js/2.7775e8f2.chunk.js.LICENSE.txt": "/github-pages-hoistedReact/static/js/2.7775e8f2.chunk.js.LICENSE.txt",
     "static/media/acc.10da3e71.jpg": "/github-pages-hoistedReact/static/media/acc.10da3e71.jpg",
     "static/media/alb.8f2f7415.jpg": "/github-pages-hoistedReact/static/media/alb.8f2f7415.jpg",
     "static/media/arm.12b08418.jpg": "/github-pages-hoistedReact/static/media/arm.12b08418.jpg",
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.a640a153.js",
     "static/css/2.a75f5a2c.chunk.css",
-    "static/js/2.b8391e1e.chunk.js",
+    "static/js/2.7775e8f2.chunk.js",
     "static/css/main.10c56cb0.chunk.css",
-    "static/js/main.0b4f2421.chunk.js"
+    "static/js/main.68e533aa.chunk.js"
   ]
 }
